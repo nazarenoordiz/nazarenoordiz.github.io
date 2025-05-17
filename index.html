@@ -1,81 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Mi Blog Retro</title>
-  <style>
-    body {
-      background-color: #f2f2f2;
-      font-family: 'Courier New', Courier, monospace;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #ffcc00;
-      color: #000;
-      padding: 20px;
-      text-align: center;
-      border-bottom: 4px double #000;
-    }
-
-    nav {
-      background-color: #000;
-      color: #0f0;
-      padding: 10px;
-      text-align: center;
-      font-weight: bold;
-    }
-
-    nav a {
-      color: #0f0;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-
-    .content {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-      background-color: #fff;
-      border: 2px solid #000;
-      box-shadow: 4px 4px 0 #000;
-    }
-
-    .post {
-      margin-bottom: 30px;
-    }
-
-    .post h2 {
-      border-bottom: 1px dashed #000;
-    }
-
-    footer {
-      background-color: #ffcc00;
-      padding: 10px;
-      text-align: center;
-      border-top: 4px double #000;
-    }
-  </style>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
     <h1>🌐 Mi Blog Retro</h1>
-    <p>Bienvenido a mi rincón de nostalgia digital</p>
+    <p>¡Bienvenido a mi mundo digital retro!</p>
   </header>
 
   <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Sobre mí</a>
-    <a href="#">Archivo</a>
+    <a href="index.html">Inicio</a>
+    <a href="categorias/tecnologia.html">Tecnología</a>
+    <a href="categorias/filosofia.html">Filosofía</a>
+    <a href="categorias/vida.html">Vida</a>
   </nav>
 
   <div class="content">
-    <div class="post">
-      <h2>📅 17 de mayo de 2025 - Primer Post</h2>
-      <p>Hola mundo... ¡esto es una entrada con sabor a los 90s!</p>
+    <h2>📝 Últimas Entradas</h2>
+
+    <div class="post-preview">
+      <h3><a href="posts/mi-primera-entrada.html">Mi primera entrada</a></h3>
+      <p><em>Fecha: 16/05/2025 | Categoría: Tecnología</em></p>
+      <p>¡Bienvenidos a mi primera entrada en el blog retro!...</p>
+    </div>
+
+    <div class="post-preview">
+      <h3><a href="posts/otra-entrada-genial.html">Otra entrada genial</a></h3>
+      <p><em>Fecha: 15/05/2025 | Categoría: Vida</em></p>
+      <p>Hoy reflexioné sobre cómo ha cambiado internet desde los 2000...</p>
     </div>
   </div>
 

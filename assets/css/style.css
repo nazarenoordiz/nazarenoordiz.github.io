@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; 
+  background: #3a5454;
+  color: #e2bb7e; /* Beige claro piel */
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+
+  flex: 1; /* para ocupar todo el espacio vertical */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.title {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+  color: #2dc485;
+}
+
+.menu a {
+  display: inline-block;
+  font-size: 3rem;
+  margin: 0 1rem;
+  padding: 0.8rem 1.5rem;
+  color: #1d1d1d;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.menu a:hover {
+  color: #f0f0f0;
+  transform: scale(1.2);
+}
+
+/* Estilos específicos para el menú social al fondo */
+.menu.social {
+  margin-bottom: 1rem;
+}
+
+.menu.social a {
+  margin: 0 1rem;
+  font-size: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #80324f; /* Morado ropa */
+  color: #e2bb7e;
+  border: 2px solid #2dc485;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+  display: inline-block;
+}
+
+.menu.social a:hover {
+  background-color: #2dc485;
+  color: #1d1d1d;
+  transform: scale(1.2);
+}

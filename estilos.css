@@ -1,49 +1,51 @@
 body {
-  background-color: #f2f2f2;
-  font-family: 'Courier New', Courier, monospace;
-  color: #000;
+  background-color: #000000;
+  color: #00FF00;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url('tu-textura.png');
+  background-repeat: repeat;
   margin: 0;
   padding: 0;
 }
 
-header {
-  background-color: #360869;
-  color: #000;
+h1, h2 {
+  color: #FFFF00;
+  text-shadow: 2px 2px #FF0000;
+}
+
+a {
+  color: #00FFFF;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: #FF00FF;
+  color: #FFFFFF;
+}
+
+.container {
+  border: 3px dashed #FF0000;
   padding: 20px;
-  text-align: center;
-  border-bottom: 4px double #000;
+  margin: 10px;
+  background-color: #111111;
+}
+
+marquee {
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 20px;
+  background: yellow;
 }
 
 nav {
-  background-color: #000;
-  color: #0f0;
-  padding: 10px;
+  background-color: #222;
+  border: 2px solid #00FF00;
+  padding: 5px;
   text-align: center;
 }
 
 nav a {
-  color: #0f0;
   margin: 0 10px;
-  text-decoration: none;
-}
-
-.content {
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
-  background-color: #fff;
-  border: 2px solid #000;
-  box-shadow: 4px 4px 0 #000;
-}
-
-.post-preview {
-  border-bottom: 1px dashed #ccc;
-  margin-bottom: 20px;
-}
-
-footer {
-  background-color: #ffcc00;
-  padding: 10px;
-  text-align: center;
-  border-top: 4px double #000;
+  color: #00FF00;
+  font-weight: bold;
 }

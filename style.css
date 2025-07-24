@@ -2,94 +2,107 @@ body {
   margin: 0;
   padding: 0;
   background: #ffffff url('https://www.transparenttextures.com/patterns/asfalt-light.png');
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Verdana', 'Tahoma', sans-serif;
   color: #111;
 }
 
 .bg {
   width: 960px;
-  margin: auto;
+  margin: 0 auto;
   padding: 20px;
-  position: relative;
-  background-color: #fff;
-  box-shadow: 0 0 10px #000;
   border: 4px solid red;
+  box-shadow: 0 0 8px #000;
+  background: #fff;
 }
 
 .logo {
   width: 100%;
   max-width: 960px;
   display: block;
-  margin-bottom: 20px;
+  margin: 0 auto 30px auto;
 }
 
 .nav-bubbles {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  margin: 30px 0;
+  margin-bottom: 30px;
 }
 
 .bubble {
-  width: 180px;
-  height: 180px;
-  background: radial-gradient(circle at center, #ffff66, #ff9900);
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
-  box-shadow: inset -3px -3px 10px rgba(0,0,0,0.5);
+  background: radial-gradient(circle at top left, #fff799, #ffbb33);
+  box-shadow: inset -3px -3px 8px rgba(0,0,0,0.3), 3px 3px 10px rgba(0,0,0,0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 10px;
   text-decoration: none;
   color: #000;
-  text-shadow: 1px 1px #fff;
-  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  transition: transform 0.2s, background 0.3s;
 }
 
 .bubble img {
   width: 80px;
   height: 80px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  border: 2px solid #333;
 }
 
 .bubble:hover {
-  background: radial-gradient(circle at center, #ffcc00, #ff6600);
+  background: radial-gradient(circle at center, #ffef99, #ff9933);
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .sidebar {
   background: #f2f2f2;
   border: 3px ridge #cc0000;
   padding: 15px;
-  margin: 20px auto;
-  width: 260px;
-  font-size: 0.9em;
+  width: 300px;
+  margin: 0 auto 30px auto;
+  font-size: 14px;
+  text-align: left;
 }
 
 .sidebar h3 {
   margin-top: 0;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2em;
+  font-size: 18px;
   color: #990000;
 }
 
 .sidebar ul {
   list-style: none;
-  padding: 0;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin: 6px 0;
 }
 
 .sidebar li a {
   text-decoration: none;
-  color: #0066cc;
+  color: #5500cc;
 }
 
 .sidebar li a:hover {
   text-decoration: underline;
+  color: #000099;
 }
 
 footer {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 12px;
   color: #444;
-  margin-top: 30px;
+  margin-top: 20px;
+  font-family: monospace;
 }

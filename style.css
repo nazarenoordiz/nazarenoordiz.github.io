@@ -1,99 +1,27 @@
-/* ===== ESTILOS GENERALES ===== */
-body {
-    background-color: #ff5722;
-    color: #ffffff;
-    /* CAMBIO: La fuente ahora es Arial */
-    font-family: Arial, sans-serif; 
-    margin: 0;
-    padding: 2rem;
-    line-height: 1.6;
-    font-size: 16px; /* Tamaño de fuente base estándar */
+html {
+	--main_text_color: #ffc167;
+	--main_bg_color: #5c162e;
+	--link_color: #00be71;
+  --hr_color: #ffdbfd;
 }
-
-a {
-    color: inherit;
-    text-decoration: none;
+.bigLink {
+      font-size: 2em;
+      font-weight: bold;
+      color: #00be71;
+  }
+h1 {
+	color: var(--main_text_color);
+	background: var(--main_bg_color);
+	text-align: center;
 }
-
-a:hover {
-    text-decoration: underline;
+hr {
+  color: var(--hr_color)
 }
-
-/* ===== CONTENEDOR PRINCIPAL (LAYOUT) ===== */
-.container {
-    display: flex;
-    gap: 4rem;
-    max-width: 1200px;
-    margin: 0 auto;
+body, h2, h3 {
+  color: var(--main_text_color);
+	background: var(--main_bg_color);
+	text-align: left;
 }
-
-/* ===== COLUMNA IZQUIERDA ===== */
-.left-column {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.logo {
-    /* CAMBIO: Centramos el texto del logo */
-    text-align: center;
-}
-
-.logo h1 {
-    font-size: 3.5rem; /* Tamaño ajustado para Arial */
-    color: #00ffff;
-    margin: 0;
-    line-height: 1.2;
-    /* CAMBIO: Eliminamos la sombra de texto que no va con este estilo */
-    text-shadow: none; 
-}
-
-.tagline {
-    margin-top: 2rem;
-    font-size: 1rem;
-}
-
-.main-nav ol {
-    list-style-type: decimal;
-    list-style-position: inside;
-    padding-left: 0;
-    font-size: 1.1rem;
-}
-
-.main-nav li {
-    margin-bottom: 0.5rem;
-}
-
-.socials {
-    font-size: 0.9rem;
-}
-
-/* ===== COLUMNA DERECHA ===== */
-.right-column {
-    flex: 2.5;
-}
-
-.info-links ul {
-    list-style-type: '• ';
-    padding-left: 1rem;
-    font-size: 1.2rem; /* Hacemos la lista un poco más grande */
-}
-
-/* BORRADO: Se eliminaron los estilos para .main-image-container, .image-annotation y .rotated-image */
-
-
-/* ===== DISEÑO RESPONSIVE PARA MÓVILES ===== */
-@media (max-width: 768px) {
-    body {
-        padding: 1rem;
-    }
-    .container {
-        flex-direction: column;
-        gap: 2rem;
-    }
-    .logo h1 {
-        font-size: 3rem;
-    }
-    /* El logo ya está centrado, así que no se necesita más ajuste aquí */
+a, a:visited {
+	color: var(--link_color);
 }

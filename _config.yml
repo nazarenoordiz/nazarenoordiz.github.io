@@ -1,7 +1,0 @@
-title: "Blog de Neozetti"
-description: "Un blog al estilo clásico"
-author: "Neozetti"
-theme: minima
-
-markdown: kramdown
-permalink: pretty

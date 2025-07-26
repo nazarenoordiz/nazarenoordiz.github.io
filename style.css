@@ -20,8 +20,27 @@ hr {
 body, h2, h3 {
   color: var(--main_text_color);
 	background: var(--main_bg_color);
-	text-align: left;
+	text-align: center;
 }
 a, a:visited {
 	color: var(--link_color);
+}
+
+.flag-container {
+	display: flex;           
+	justify-content: center; 
+	align-items: center;    
+	gap: 100px;
+}
+
+.flag-button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+}
+
+.flag-img {
+	width: 96px;
+	height: auto;
 }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página principal -->
+  <url>
+    <loc>https://neozetti.com.ar/</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/es</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/en</loc>
+  </url>
+  <!-- Versión en inglés -->
+  <url>
+    <loc>https://neozetti.com.ar/en/index.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/en/blog.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/en/games.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/en/reviews/split.html</loc>
+  </url>
+
+  <!-- Versión en español -->
+  <url>
+    <loc>https://neozetti.com.ar/es/index.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/es/blog.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/es/juegos.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/es/devlogs/devlog-sawi-00.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/es/devlogs/devlog-sawi-01.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/es/devlogs/devlog-sawi-02.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/es/devlogs/devlog-sawi-03.html</loc>
+  </url>
+  <url>
+    <loc>https://neozetti.com.ar/es/reviews/split.html</loc>
+  </url>
+</urlset>

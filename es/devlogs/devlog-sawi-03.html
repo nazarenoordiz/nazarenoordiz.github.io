@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>DevLog Sawi 03 | Música, Documentos, Niveles, y más!</title>
+</head>
+<body>
+  <article>
+    <h1>DevLog Sawi 03 | Música, Documentos, Niveles, y más!</h1>
+    <p><em>Publicado el Tue, 01 Apr 2025 00:18:25 +0000</em></p>
+    Buenas!!
+
+Como prometí la semana pasada, vamos con un update más cercano de lo último que estuvimos trabajando.
+Antes que nada, tengo que mencionar algo muy importante; desde hace unas dos semanas, se sumaron al proyecto Maiine y Santi (mi hermano).
+Ambos con funciones variadas (incluyendo programación, diseño, y de todo un poco), y Santi, con el objetivo principal de darle vida a la música.
+Ya que lo mencioné, arranquemos por eso.
+<h2>Nueva música</h2>
+Hace ya un buen, buen, buen tiempo, que quería meterle una música propia al juego, pero no le dedicaba el tiempo.
+Ahí es cuando se sumó Santi al proyecto; él venía con varias ideas de música para videojuegos desde hace ya algunos meses, <a href="https://www.youtube.com/watch?v=OOQEK7Gzizc">incluso con un contenido subido a Youtube</a>.
+Por el momento, realizamos varios loops pensando en el mundo 1 del juego, con la idea de ir utilizándolos por nivel; aún queda definir si estos loops van a ser utilizados de forma aleatoria dentro del mismo mundo, si vamos a reservar uno por nivel, o si vamos a usar uno solo e ir complejizándolo (añadiendo instrumentos), a lo largo del progreso del mundo.
+Como verán, aún queda mucho por definir, pero es un gran avance.
+Dejo el loop que vengo usando para los videos de las redes:
+
+[audio mp3="https://neozetti.com.ar/wp-content/uploads/2025/03/WIPE.mp3"][/audio]
+
+Para seguir presentando a los nuevos participantes del proyecto, vamos un poco con lo que estuvo haciendo Maiine.
+<h2>Documentos, Guion y Diseño</h2>
+Hace un par de semanas, me junté con Maiine, el Oso, a comer unas pizzas en el barrio de Caballito.
+La idea era clara, que me ayude a orientar mi cabeza en el sin fin de ideas y preguntas que tenía.
+Con su destacable claridad y paciencia, Maiine entra al proyecto para cumplir, principalmente, dos roles clave.
+Primero que nada, está liderando de una manera increíble todo lo relacionado con documentos (<a href="https://www.fsansberro.com/post/c%C3%B3mo-escribir-el-game-concept">HCD</a>, <a href="https://es.wikipedia.org/wiki/Documento_de_dise%C3%B1o_de_videojuegos">GDD</a>, etc.), para darle una importantísima capa de profesionalismo al proyecto; que pase de ser un proyecto de fin-de-semana, a tener el potencial de ser vendido.
+Por otro lado, también está un rol muy importante de Game Design; ya hicimos varios cambios en los niveles (ahora voy con eso), y estamos diseñando el hub de niveles.
+Por último, y no menos importante, arrancó el primer boceto de guion del juego, del cual espero poder compartir un poco más en un futuro próximo.
+<h2>Vertical Slice</h2>
+Para darles un poco más de contexto, el objetivo que nos pusimos a corto plazo, es tener terminado un '<a href="https://catnessgames.com/wikigame/vertical-slice/">Vertical Slice</a>', con el cual poder mostrar el juego a Publishers; para esto, definimos un pequeño plan (el cual se va modificando al pasar de los días), pero en principio, lo que buscamos lograr para esta mini-versión del juego es:
+- Tutorial e inicio del juego.
+- El hub de niveles, aunque sea en un estado inicial.
+- Tres niveles de tres mundos distintos (o sea, nueve niveles).
+- Cada mundo debe incluir una mecánica del nivel y una mecánica de Gadget.
+
+Veremos como sigue esto, iré actualizándolo según nos vayamos moviendo.
+Pero... Mecánica Gadget?! Qué es eso?!
+Por el momento, voy a dejar plantada la duda, para poder resolverla en unas pocas semanas (con videos incluidos), pero por el momento, pensalo como un set de herramientas que van a ayudar a Sawi a eliminar las plagas.
+Mientras, hablemos de algo que está más trabajado...
+<h2>Niveles del mundo 1</h2>
+Con la astucia y buena puntería de Maiine a la hora de diseñar, nos dimos cuenta de que los niveles del mundo 1 tenían varios defectos, los cuales incluyen:
+- Gran diferencia de tiempo de juego entre niveles.
+- Innecesario <a href="https://www.geekno.com/glosario/backtrack">backtracking</a>.
+- Errores de diseño y tiles.
+Teniendo en la cabeza la idea del vertical slice, que solo necesitábamos tres niveles, solucionamos utilizando los dos mejores que teníamos disponibles y sumando una mezcla de niveles para obtener el tercero.
+Esto nos dejó con tres niveles finalizados y listos para tener terminado el mundo 1 del Vertical Slice (aunque todavía falta el Gadget...)
+Añado algunas imágenes de estos niveles.
+
+[caption id="attachment_102" align="aligncenter" width="462"]<a href="https://neozetti.com.ar/wp-content/uploads/2025/03/sawi-on-lvl-3-1.png"><img class="wp-image-102" src="https://neozetti.com.ar/wp-content/uploads/2025/03/sawi-on-lvl-3-1-300x169.png" alt="" width="462" height="260" /></a> Sawi, muy tranquilo, en el nivel 3.[/caption]
+
+[caption id="attachment_97" align="aligncenter" width="334"]<a href="https://neozetti.com.ar/wp-content/uploads/2025/03/ex-lvl6-now-lvl2-2.png"><img class=" wp-image-97" src="https://neozetti.com.ar/wp-content/uploads/2025/03/ex-lvl6-now-lvl2-2-270x300.png" alt="" width="334" height="371" /></a> Ex nivel 6, ahora nivel 2.[/caption]
+
+&nbsp;
+
+Respecto a los niveles, también venimos avanzando en el diseño y arte del Hub de niveles, pero voy a profundizar más sobre esto en una próxima entrega (cuando ya lo tengamos más liquidado).
+<h2>Breakable Objects</h2>
+Para liquidar esta hermosa entrega, vamos con los 'Breakable Objects'.
+Esto era algo que ya teníamos, son objetos (plataformas), que al ser pisadas se destruyen a los pocos segundos.
+Pero, en la última semana, realicé unas mejoras fundamentales:
+- Ahora, las plataformas reaparecen luego de unos segundos.
+- Agregué una pequeña animación tanto para cuando se rompen, como para cuando reaparecen (esto es temporal, la idea es mejorar estas animaciones en un futuro cercano).
+
+Con esto cierro la publicación, volveré a escribir pronto, con nuevas y emocionantes novedades del Gran Alien Sawi.
+Los dejo con un videito de esta animación.
+
+[video width="2560" height="1440" mp4="https://neozetti.com.ar/wp-content/uploads/2025/03/2025-03-31-17-27-57.mp4"][/video]
+
+Abrazo de gol!
+
+— Nacho, Naza o Neozetti.
+  </article>
+</body>
+</html>

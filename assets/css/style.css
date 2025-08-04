@@ -9,15 +9,10 @@ html {
       font-weight: bold;
       color: #00be71;
   }
-h1 {
-	color: var(--main_text_color);
-	background: var(--main_bg_color);
-	text-align: center;
-}
 hr {
-  color: var(--hr_color)
+  color: var(--hr_color);
 }
-body, h2, h3 {
+body, h1, h2, h3 {
   color: var(--main_text_color);
 	background: var(--main_bg_color);
 	text-align: left;

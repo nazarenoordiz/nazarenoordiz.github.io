@@ -1,22 +1,31 @@
 html {
-	--main_text_color: #ffc167;
-	--main_bg_color: #5c162e;
-	--link_color: #00be71;
+  --main_text_color: #ffc167;
+  --main_bg_color: #5c162e;
+  --link_color: #00be71;
   --hr_color: #ffdbfd;
 }
+
 .bigLink {
-      font-size: 2em;
-      font-weight: bold;
-      color: #00be71;
-  }
+  font-size: 2em;
+  font-weight: bold;
+  color: #00be71;
+}
+
+
 hr {
   color: var(--hr_color);
 }
-body, h1, h2, h3 {
+
+body,
+h1,
+h2,
+h3 {
   color: var(--main_text_color);
-	background: var(--main_bg_color);
-	text-align: left;
+  background: var(--main_bg_color);
+  text-align: left;
 }
-a, a:visited {
-	color: var(--link_color);
+
+a,
+a:visited {
+  color: var(--link_color);
 }

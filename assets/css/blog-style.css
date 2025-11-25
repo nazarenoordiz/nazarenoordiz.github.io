@@ -5,6 +5,14 @@ html {
   --hr_color: #ffdbfd;
 }
 
+body {
+  color: var(--main_text_color);
+  background: var(--main_bg_color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 24px;
+}
+
 .bigLink {
   font-size: 2em;
   font-weight: bold;
@@ -15,17 +23,13 @@ hr {
   color: var(--hr_color);
 }
 
-body {
-  color: var(--main_text_color);
-  background: var(--main_bg_color);
-}
-
 h1,
 h2,
 h3 {
   color: var(--main_text_color);
   background: var(--main_bg_color);
   text-align: center;
+  margin-top: 0;
 }
 
 .section-desc {
@@ -39,13 +43,15 @@ h3 {
   display: flex;
   justify-content: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .small-container {
   width: 700px;
-  height: 200px;
+  min-height: 200px;
   padding: 0.5rem 1rem 1px;
   border: 1px solid var(--hr_color);
+  border-radius: 12px;
 }
 
 .dl {
@@ -54,17 +60,20 @@ h3 {
   justify-content: space-between;
   padding-top: 1px;
   padding-bottom: 1px;
+  gap: 12px;
 }
 
 .dl-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 10px;
 }
 
 .dl-left {
   display: flex;
   flex-direction: row;
+  gap: 10px;
 }
 
 .dl-title {
@@ -78,8 +87,28 @@ h3 {
   margin-left: 10px;
 }
 
-
 a,
 a:visited {
   color: var(--link_color);
+}
+
+.page { max-width: 960px; margin: 0 auto; }
+
+.ad-bar {
+  display: block;
+  width: min(100%, 728px);
+  min-height: 90px;
+  margin: 12px auto 24px;
+  border: 1px dashed var(--hr_color);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ad-label {
+  color: var(--hr_color);
+  font-size: 0.9rem;
+  margin: 12px 0 4px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
